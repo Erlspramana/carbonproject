@@ -1,0 +1,72 @@
+.featured-article {
+    background-image: url(../Images/plasticwaste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+.featured-div:hover .featured-article {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}
+
+.image-1 {
+    background-image: url(../Images/thumbnail/ecosia-bios-urn-blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+#content-1:hover .image-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}
+
+
+.image-2 {
+    background-image: url(../Images/thumbnail/10000668.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+#content-2:hover .image-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}
+
+.image-3 {
+    background-image: url(../Images/thumbnail/890804-mmxcejgzvl-1533961123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+#content-3:hover .image-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}
+
+.image-4 {
+    background-image: url(../Images/plasticwaste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+#content-4:hover .image-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}
+
+.image-5 {
+    background-image: url(../Images/plasticwaste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+#content-5:hover .image-5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.01);
+}

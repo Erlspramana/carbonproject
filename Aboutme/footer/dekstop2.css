@@ -1,0 +1,147 @@
+@media screen and (min-width: 1441px) and (max-width: 1536px) {
+    footer {
+        position: relative;
+        height: 50vh;
+        width: 100%;
+        background-color: black;
+        top: 40vh;
+    }
+    
+        .gray-line {
+            position: absolute;
+            top: 0;
+            height: 10vh;
+            width: 100%;
+            background-color: rgb(36, 34, 34);
+            z-index: 20;
+        }
+    
+    .aboutme-button {
+        position: absolute;
+        margin: auto;
+        left: 46%;
+        top: 30%;
+        width: 150px;
+        height: 50px;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 7px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        border: 0;
+        transition: .5s;
+        cursor: none;
+    }
+    
+    .aboutme-button:hover {
+        background-color: rgba(133, 133, 133, 0.137);
+        cursor: none;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        top: 150px;
+        left: 470px;
+        z-index: 30;
+        font-size: 53px;
+        font-family: plus jakarta sans;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .footer-copyright {
+        position: absolute;
+        top: 210px;
+        left: 470px;
+        z-index: 30;
+        font-size: 13px;
+        font-family: plus jakarta sans;
+        font-weight: bolder;
+        color: white;
+        max-width: 15%;
+    }
+    
+    .email-subscribe {
+        position: absolute;
+        top: 280px;
+        left: 470px;
+        height: 35px;
+        width: 180px;
+        background-color: white;
+        border: 1px solid;
+        border-radius: 2px;
+        border-color: black;
+        font-size: 15px;
+        font-family: mabry pro;
+        padding-left: 15px;
+    }
+    
+    .email-subscribe:after {
+        border-color: red;
+    }
+    
+    .button-subscribe {
+        position: absolute;
+        height: 35px;
+        width: 40px;
+        top: 281px;
+        left: 670px;
+        background-color: rgb(139,226,183);
+        font-size: 20px;
+        border: none;
+    }
+    
+    .button-subscribe:hover {
+        background-color: rgb(136, 199, 167);
+    }
+    
+    .footer-home {
+        position: absolute;
+        right: 500px;
+        top: 165px;
+        z-index: 30;
+        color: white;
+        font-size: 25px;
+        font-family: mabry pro;
+    }
+    
+    .footer-goals {
+        position: absolute;
+        right: 500px;
+        top: 205px;
+        z-index: 30;
+        color: white;
+        font-size: 25px;
+        font-family: mabry pro;
+    }
+    
+    .footer-articles {
+        position: absolute;
+        right: 500px;
+        top: 245px;
+        z-index: 30;
+        color: white;
+        font-size: 25px;
+        font-family: mabry pro;
+    }
+    
+    .footer-shop {
+        position: absolute;
+        right: 500px;
+        top: 285px;
+        z-index: 30;
+        color: white;
+        font-size: 25px;
+        font-family: mabry pro;
+    }
+    
+    .footer-aboutme {
+        position: absolute;
+        right: 500px;
+        top: 325px;
+        z-index: 30;
+        color: white;
+        font-size: 25px;
+        font-family: mabry pro;
+    }
+    }

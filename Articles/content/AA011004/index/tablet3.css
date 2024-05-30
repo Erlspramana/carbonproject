@@ -1,0 +1,170 @@
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../../../fonts/Mabry-Pro-Medium.ttf")
+        }
+        
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .wrappingdivnav {
+        padding-top: 10px;
+    }
+    
+    body {
+        background-color: rgb(231, 231, 231);
+        animation: home 2.5s;
+    }
+    
+    #header-top {
+        background-color: black;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    @keyframes home {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    #content {
+        position: relative;
+        height: 270vh;
+    }
+    
+    .header-top-image-1 {
+        height: 370px;
+        width: 600px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 270px;   
+        top: 160px;
+    }
+    
+    .related-sdg {
+        position: absolute;
+        right: 11%;
+        top: 45vh;
+        color: rgb(255, 255, 255);
+        font-size: 27px;
+        font-family: mabry pro;
+    }
+    
+    .sdg-a {
+        position: absolute;
+        right: 23.5%;
+        top: 50vh;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .sdg-b {
+        position: absolute;
+        right: 17.5%;
+        top: 50vh;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .sdg-c {
+        position: absolute;
+        right: 11.5%;
+        top: 50vh;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .content-date-1 {
+        position: absolute;
+        font-size: 12px;
+        font-family: plus jakarta sans;
+        font-weight: normal;
+        top: 120px;
+        left: 200px;
+        max-width: 40%;
+        letter-spacing: -0.5px;
+        word-spacing: 2.3px;
+        line-height: 20px;
+    }
+    
+    .content-title-1 {
+        position: absolute;
+        font-size: 80px;
+        font-family: plus jakarta sans;
+        font-weight: bolder;
+        top: 120px;
+        left: 370px;
+        max-width: 50%;
+        letter-spacing: -2px;
+        word-spacing: -2px;
+        line-height: 75px;
+    }
+    
+    .detail-dot-1 {
+        position: absolute;
+        background-color: black;
+        top: 230px;
+        left: 200px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .content-header-1 {
+        position: absolute;
+        color: black;
+        top: 360px;
+        left: 200px;
+        font-size: 30px;
+        font-family: mabry pro;
+        max-width: 70%;
+    }
+    
+    .content-a-1 {
+        font-size: 23px;
+        color:rgb(141, 0, 0);
+    }
+    
+    .content-a-1:hover {
+        font-size: 23px;
+        color:rgb(100, 0, 0);
+    }
+    
+    .back-button {
+        position: relative;
+        bottom: 100px;
+        left: 25vh;
+        height: 60px;
+        width: 150px;
+        border-radius: 70px;
+        font-size: 20px;
+        font-family: plus jakarta sans;
+        font-weight: bolder;
+        transition: .3s;
+    }
+    
+    .back-button:hover {
+        background-color: rgb(250, 73, 73);
+        color: white;
+    }
+    }

@@ -1,0 +1,186 @@
+@media screen and (min-width: 1000px) and (max-width: 1170px) {
+
+    .wrappingdivnav {
+        margin-top: -100px;
+    }
+    
+    /* Header */
+    header {
+        height: 85px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        position: sticky;       
+        position: sticky;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        transition: background-color 0.3s ease-in-out;
+        z-index: 200;
+        animation: home 2s;
+        transition: background .5s;
+    }
+    
+    @keyframes home {
+        from {
+            filter: blur(1.2px);
+            opacity: 0;
+        }
+        to {
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+    
+    header.scrolled {
+        background-color: rgba(0, 0, 0, 0.87);
+        z-index: 100;
+    }
+    
+    /* Logo */
+    .logo {
+        font-size: 45px;
+        text-decoration: none;
+        cursor: none;
+        color: rgb(255, 255, 255);
+        font-family: Plus Jakarta Sans;
+        font-weight: bold;
+        position:absolute;
+        top: 16%;
+        left: 70px;
+        z-index: 100;
+    }
+    
+    .logo:hover {
+        color: aliceblue;
+    }
+    
+    /* Navbar Text */
+    .navbar-1 {
+        font-size: 25px;
+        text-decoration: none;
+        cursor: none;
+        color: rgb(255, 255, 255);
+        font-family: Mabry pro;
+        position: absolute;
+        top: 27%;
+        right: 550px;
+        padding: 10px;
+        z-index: 10;
+    }
+    .navbar-2 {
+        font-size: 25px;
+        text-decoration: none;
+        cursor: none;
+        color: rgb(255, 255, 255);
+        font-family: Mabry pro;
+        position: absolute;
+        top: 27%;
+        right: 400px;
+        padding: 10px;
+        z-index: 10;
+    }
+    
+    .navbar-3 {
+        font-size: 25px;
+        text-decoration: none;
+        cursor: none;
+        color: rgb(255, 255, 255);
+        font-family: Mabry pro;
+        position: absolute;
+        top: 27%;
+        right: 300px;
+        padding: 10px;
+    }
+    
+    .navbar-1:hover,.navbar-2:hover,.navbar-3:hover {
+        cursor: none;
+    }
+    
+    .navbar-1:after {
+        content: "";
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        width: 0;
+        left: 0;
+        bottom: -1px;
+        transition: 0.4s;
+        cursor: none;
+    }
+    
+    .navbar-1:hover:after{
+        width: 100%;
+        cursor: none;
+    }
+    
+    .navbar-2:after {
+        content: "";
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        width: 0;
+        left: 0;
+        bottom: -1px;
+        transition: 0.4s;
+        cursor: none;
+    }
+    
+    .navbar-2:hover:after{
+        width: 100%;
+        cursor: none;
+    }
+    
+    .navbar-3:after {
+        content: "";
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        width: 0;
+        left: 0;
+        bottom: -1px;
+        transition: 0.4s;
+        cursor: none;
+    }
+    
+    .navbar-3:hover:after{
+        width: 100%;
+        cursor: none;
+    }
+    
+    /* Navbar Button */
+    .navbar-button-1 {
+        font-size: 25px;
+        height: 55px;
+        width: 150px;
+        text-decoration: none;
+        background-color: white;
+        border: solid 2px;
+        border-color: black;
+        border-radius: 5px;
+        font-family: Mabry pro;
+        position: absolute;
+        top: 19%;
+        right: 100px;
+        padding: 0 10px;
+        transition-duration: .3s;
+        cursor: none;
+    }
+    .navbar-button-1.scrolled {
+        top: 12%;
+    }
+    
+    .navbar-button-1:hover {
+        background-color: rgb(244, 239, 239);
+        transition-duration: 100ms;
+        cursor: none;
+    }
+    
+    .navbar-button-1:active {
+        background-color: rgb(213, 206, 206);
+    }
+    
+    }

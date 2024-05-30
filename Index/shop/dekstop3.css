@@ -1,0 +1,94 @@
+@media screen and (min-width: 1279px) and (max-width: 1499px) {
+#shop {
+    position: relative;
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(197, 193, 191);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop-title-1 {
+    position: absolute;
+    display: inline;
+    left: 53%;
+    top: 9%;
+    color: white;
+    font-size: 110px;
+    font-weight: 900;
+    max-width: 37%;
+    font-family: plus jakarta sans;
+}
+
+.shop-desc-1 {
+    position: absolute;
+    display: inline;
+    left: 53%;
+    top: 35%;
+    color: white;
+    font-size: 27px;
+    max-width: 31%;
+    font-family: mabry pro;
+}
+
+.shop-button-1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    border-radius: 6px;
+    font-family: mabry pro;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border: 2px solid;
+    left: 53%;
+    bottom: 20%;
+    width: 240px;
+    height: 65px;
+    cursor: none;
+    transition-duration: .4s;
+}
+
+.shop-button-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.shop-image-1 {
+    position: absolute;
+    left: 5%;
+    top: 13%;
+    height: 500px;
+    width: 470px;
+    border: solid 2px;
+    border-color: rgba(0, 0, 0, 0.101);
+    border-radius: 20px;
+    z-index: 8;
+    transition: .3s;
+}
+
+.shop-image-1:hover {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    height: 500px;
+    width: 470px;
+    border: solid 2px;
+    border-color: rgba(255, 255, 255, 0.358);
+    border-radius: 20px;
+    z-index: 8;
+}
+
+.verticalline5 {
+    display: inline;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.206);
+    width: 0.5px;
+    top: 0;
+    height: 85vh;
+    right: 12%;
+    z-index: 3;
+}
+}

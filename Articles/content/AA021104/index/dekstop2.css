@@ -1,0 +1,170 @@
+@media screen and (min-width: 1441px) and (max-width: 1536px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrappingdivnav {
+    padding-top: 10px;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    animation: home 2.5s;
+}
+
+#header-top {
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+}
+
+@keyframes home {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#content {
+    position: relative;
+    height: 210vh;
+}
+
+.header-top-image-1 {
+    height: 490px;
+    width: 870px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 30vh;   
+    top: 17vh;
+}
+
+.related-sdg {
+    position: absolute;
+    right: 11%;
+    top: 45vh;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-family: mabry pro;
+}
+
+.sdg-a {
+    position: absolute;
+    right: 19.5%;
+    top: 50vh;
+    height: 60px;
+    width: 60px;
+}
+
+.sdg-b {
+    position: absolute;
+    right: 14.5%;
+    top: 50vh;
+    height: 60px;
+    width: 60px;
+}
+
+.sdg-c {
+    position: absolute;
+    right: 9.5%;
+    top: 50vh;
+    height: 60px;
+    width: 60px;
+}
+
+.content-date-1 {
+    position: absolute;
+    font-size: 17px;
+    font-family: plus jakarta sans;
+    font-weight: normal;
+    top: 30vh;
+    left: 27vh;
+    max-width: 40%;
+    letter-spacing: -0.5px;
+    word-spacing: 2.3px;
+    line-height: 23px;
+}
+
+.content-title-1 {
+    position: absolute;
+    font-size: 83px;
+    font-family: plus jakarta sans;
+    font-weight: bolder;
+    top: 30vh;
+    right: 20vh;
+    max-width: 60%;
+    letter-spacing: -2px;
+    word-spacing: -2px;
+    line-height: 75px;
+}
+
+.detail-dot-1 {
+    position: absolute;
+    background-color: black;
+    top: 41vh;
+    left: 27vh;
+    height: 30px;
+    width: 30px;
+}
+
+.content-header-1 {
+    position: absolute;
+    color: black;
+    top: 55vh;
+    left: 27vh;
+    font-size: 30px;
+    font-family: mabry pro;
+    max-width: 70%;
+}
+
+.content-a-1 {
+    font-size: 23px;
+    color:rgb(141, 0, 0);
+}
+
+.content-a-1:hover {
+    font-size: 23px;
+    color:rgb(100, 0, 0);
+}
+
+.back-button {
+    position: absolute;
+    bottom: -260vh;
+    left: 25vh;
+    height: 60px;
+    width: 150px;
+    border-radius: 70px;
+    font-size: 20px;
+    font-family: plus jakarta sans;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+.back-button:hover {
+    background-color: rgb(250, 73, 73);
+    color: white;
+}
+}

@@ -1,0 +1,447 @@
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+
+        #header {
+            position: relative;
+            background-color: rgb(16, 16, 18);
+            height: 101vh;
+            width: 100%;
+        }
+
+        .header-heading-1 {
+            position: absolute;
+            z-index: 30;
+            top: 20vh;
+            left: 140px;
+            font-size: 20px;
+            font-family: mabry pro;
+            font-weight: normal;
+            color: white;
+        }
+
+        .header-title-1 {
+            position: absolute;
+            z-index: 30;
+            top: 25vh;
+            left: 140px;
+            font-size: 83px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            letter-spacing: -3px;
+            word-spacing: 10px;
+            line-height: 93px;
+            color: white;
+        }
+
+        .header-image-1 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 390px;
+            width: 700px;
+            filter: opacity(0.7)
+        }
+
+        /* Source */
+        .source {
+            font-size: 20px;
+            color:rgb(141, 0, 0);
+        }
+
+        .source:hover {
+            font-size: 20px;
+            color:rgb(100, 0, 0);
+        }
+
+        /* SDG 6 */
+        #sdg-6 {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+        }
+        .sdg-6-image-1 {
+            position: absolute;
+            top: 9vh;
+            left: 150px;
+            height: 110px;
+            width: 110px;
+        }
+        .sdg-6-title-1 {
+            position: absolute;
+            top: 8vh;
+            left: 290px;
+            max-width: 50%;
+            z-index: 30;
+            font-size: 47px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+        .sdg-6-image-2 {
+            position: absolute;
+            border: solid 1px;
+            border-color: white;
+            border-radius: 7px;
+            top: 10vh;
+            right: 6vh;
+            height: 290px;
+            width: 230px;
+        }
+        .sdg-6-text-1 {
+            position: absolute;
+            top: 30vh;
+            left: 150px;
+            max-width: 51%;
+            z-index: 30;
+            font-size: 20px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+
+        /* SDG 7 */
+        #sdg-7 {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+        }
+        .sdg-7-image-1 {
+            position: absolute;
+            top: 9vh;
+            left: 150px;
+            height: 110px;
+            width: 110px;
+        }
+        .sdg-7-title-1 {
+            position: absolute;
+            top: 8vh;
+            left: 290px;
+            max-width: 50%;
+            z-index: 30;
+            font-size: 47px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+        .sdg-7-image-2 {
+            position: absolute;
+            border: solid 1px;
+            border-color: white;
+            border-radius: 7px;
+            top: 10vh;
+            right: 6vh;
+            height: 290px;
+            width: 230px;
+        }
+        .sdg-7-text-1 {
+            position: absolute;
+            top: 30vh;
+            left: 150px;
+            max-width: 51%;
+            z-index: 30;
+            font-size: 20px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+
+        /* SDG 13 */
+        #sdg-13 {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+        }
+        .sdg-13-image-1 {
+            position: absolute;
+            top: 9vh;
+            left: 150px;
+            height: 110px;
+            width: 110px;
+        }
+        .sdg-13-title-1 {
+            position: absolute;
+            top: 8vh;
+            left: 290px;
+            max-width: 50%;
+            z-index: 30;
+            font-size: 47px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+        .sdg-13-image-2 {
+            position: absolute;
+            border: solid 1px;
+            border-color: white;
+            border-radius: 7px;
+            top: 10vh;
+            right: 6vh;
+            height: 290px;
+            width: 230px;
+        }
+        .sdg-13-text-1 {
+            position: absolute;
+            top: 30vh;
+            left: 150px;
+            max-width: 51%;
+            z-index: 30;
+            font-size: 20px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+
+        /* SDG 14 */
+        #sdg-14 {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+        }
+        .sdg-14-image-1 {
+            position: absolute;
+            top: 9vh;
+            left: 150px;
+            height: 110px;
+            width: 110px;
+        }
+        .sdg-14-title-1 {
+            position: absolute;
+            top: 8vh;
+            left: 290px;
+            max-width: 50%;
+            z-index: 30;
+            font-size: 47px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+        .sdg-14-image-2 {
+            position: absolute;
+            border: solid 1px;
+            border-color: white;
+            border-radius: 7px;
+            top: 10vh;
+            right: 6vh;
+            height: 290px;
+            width: 230px;
+        }
+        .sdg-14-text-1 {
+            position: absolute;
+            top: 30vh;
+            left: 150px;
+            max-width: 51%;
+            z-index: 30;
+            font-size: 20px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+
+        /* SDG 15 */
+        #sdg-15 {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        .sdg-15-image-1 {
+            position: absolute;
+            top: 9vh;
+            left: 150px;
+            height: 110px;
+            width: 110px;
+        }
+        .sdg-15-title-1 {
+            position: absolute;
+            top: 8vh;
+            left: 290px;
+            max-width: 50%;
+            z-index: 30;
+            font-size: 47px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+        .sdg-15-image-2 {
+            position: absolute;
+            border: solid 1px;
+            border-color: white;
+            border-radius: 7px;
+            top: 10vh;
+            right: 6vh;
+            height: 290px;
+            width: 230px;
+        }
+        .sdg-15-text-1 {
+            position: absolute;
+            top: 30vh;
+            left: 150px;
+            max-width: 51%;
+            z-index: 30;
+            font-size: 20px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            color: white;
+        }
+
+        /* Verticalline */
+        .verticalline {
+            position: absolute;
+            left: 90px;
+            top: 20vh;
+            z-index: 30;
+            height: 95vh;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.808);
+            animation: verticalline 1s;
+        }
+        @keyframes verticalline {
+            0% {
+                height: 0vh;
+            }
+            100% {
+                height: 95vh;
+            }
+        }
+        .dot-verticalline {
+            position: absolute;
+            left: 80.5px;
+            top: 19vh;
+            z-index: 31;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        .verticalline1 {
+            position: absolute;
+            left: 90px;
+            top: 15vh;
+            z-index: 30;
+            height: 90vh;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.808);
+        }
+        @keyframes verticalline1 {
+            0% {
+                height: 0vh;
+            }
+            100% {
+                height: 90vh;
+            }
+        }
+        .dot-verticalline1 {
+            position: absolute;
+            left: 80.5px;
+            top: 13vh;
+            z-index: 32;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        .verticalline2 {
+            position: absolute;
+            left: 90px;
+            top: 15vh;
+            z-index: 30;
+            height: 90vh;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.808);
+        }
+        .dot-verticalline2 {
+            position: absolute;
+            left: 80.5px;
+            top: 13vh;
+            z-index: 32;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        .verticalline3 {
+            position: absolute;
+            left: 90px;
+            top: 15vh;
+            z-index: 30;
+            height: 90vh;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.808);
+        }
+        .dot-verticalline3 {
+            position: absolute;
+            left: 80.5px;
+            top: 13vh;
+            z-index: 32;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        .verticalline4 {
+            position: absolute;
+            left: 90px;
+            top: 15vh;
+            z-index: 30;
+            height: 90vh;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.808);
+        }
+        .dot-verticalline4 {
+            position: absolute;
+            left: 80.5px;
+            top: 13vh;
+            z-index: 32;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+        .dot-verticalline5 {
+            position: absolute;
+            left: 80.5px;
+            top: 13vh;
+            z-index: 32;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        /* Transition */
+        .hidden {
+            opacity: 0;
+            transition: 1s;
+        }
+
+        .transition {
+            opacity: 1;
+        }
+
+        .hidden2 {
+            height: 0vh;
+            transition: 1.2s;
+        }
+
+        .transition2 {
+            height: 95vh;
+        }
+    }

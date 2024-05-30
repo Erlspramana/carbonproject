@@ -1,0 +1,223 @@
+@media screen and (min-width: 900px) and (max-width: 1170px) {
+
+    #articles {
+        background-image: url(../../Images/articles.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(234, 227, 221);
+        height: 100vh;
+        width: 100%;
+        position:relative;
+        z-index: 10;
+    }
+
+    .Articles-title-1 {
+        z-index: -10;
+        position: relative;
+        font-size: 130px;
+        top:  30px;
+        left: 9%;
+        display: inline;
+        font-family: plus jakarta sans;
+        font-weight: 800;
+        letter-spacing: -10px;
+        animation: articles-title 7s;
+    }
+
+    .Articles-page-1 {
+        position: absolute;
+        right: 10%;
+        font-size: 20px;
+        top: 130px;
+        text-decoration: none;
+        font-family: mabry pro;
+        color: black;
+        animation: articles-title 7s;
+        transition-duration: all 2s;
+        cursor: none;
+        
+    }
+
+    .Articles-page-1:after {
+        content: "";
+        height: 2px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        width: 0;
+        left: 0;
+        bottom: -1px;
+        transition: 0.4s;
+        cursor: none;
+    }
+    
+    .Articles-page-1:hover:after {
+        width: 100%;
+        cursor: none;
+    }
+
+    .Articles-page-1:hover {
+        color: redb;
+    }
+
+    @keyframes articles-title {
+        from {
+            opacity: 0;
+        } to {
+            opacity: 1;
+        }
+    }
+
+    /* Background-title-1 */
+
+    .background-title-1 {
+        z-index: -10;
+        display: inline-flex;
+        font-size: 300px;
+    }
+    
+
+    .verticalline2 {
+        display: inline;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.206);
+        width: 0.5px;
+        height: 100vh;
+        right: 12%;
+        z-index: 3;
+    }
+
+    .article-box {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    
+    .hidden-2 {
+        opacity: 0;
+        filter: blur(2px);
+        transform: translateX(-30%);
+        transition: all 2s;
+    }
+    
+    .transition {
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0px);
+    }
+    
+    /* Articles div 1*/
+    .articles-1 {
+        position: relative;
+        display: flex;
+        width: 273.3px;
+        height: 160px;
+        border: 2px solid;
+        margin-right: -30px;
+        transition-duration: .23s border;
+        transition-delay: 200ms;
+        cursor: none;
+        justify-content: center;
+        left: 7%;
+    }
+    
+    .articles-2 {
+        position: relative;
+        display: flex;
+        width: 273.3px;
+        height: 160px;
+        border: 2px solid;
+        transition-delay: 400ms;
+        cursor: none;
+        justify-content: center;
+    }
+    
+    .articles-3 {
+        position: relative;
+        display: flex;
+        width: 273.3px;
+        height: 160px;
+        border: 2px solid;
+        margin-left: -30px;
+        transition-delay: 600ms;
+        justify-content: center;
+        right: 7%;
+    }
+    
+    /* Articles div 2 */
+    .article-box-2 {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        top: -5%;
+    }
+    
+    .articles-1-2 {
+        position: relative;
+        display: flex;
+        padding-top:28px;
+        justify-content: left;
+        width: 273.3px;
+        height: 160px;
+        left: 3%;
+        cursor: none;
+    }
+    
+    .articles-2-2 {
+        position: relative;
+        display: flex;
+        padding-top: 28px;
+        justify-content: left;
+        width: 273.3px;
+        height: 160px; 
+        cursor: none;
+    }
+    
+    .articles-3-2 {
+        position: relative;
+        display: flex;
+        padding-top: 28px;
+        justify-content: left;
+        width: 273.3px;
+        height: 160px;
+        right: 3%;
+        cursor: none;
+    }
+    
+    /* links */
+    
+    .links-1 {
+        position: relative;
+        font-family: mabry pro;
+        font-size: 33px;
+        text-decoration: none;
+        color: black;
+        cursor: none;
+    }
+    
+    .links-2 {
+        position: relative;
+        font-family: mabry pro;
+        font-size: 33px;
+        text-decoration: none;
+        color: black;
+        cursor: none;
+    }
+    
+    .links-3 {
+        position: relative;
+        font-family: mabry pro;
+        font-size: 33px;
+        text-decoration: none;
+        color: black;
+        cursor: none;
+    }
+    
+    .links-1:hover, .links-2:hover, .links-3:hover {
+        color: rgb(250, 85, 85);
+    }
+
+    }

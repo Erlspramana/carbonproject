@@ -1,0 +1,132 @@
+/* Container 1a */
+.container-1a {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/totebag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .2s;
+}
+.container-1a:hover {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/totebag1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .3s;
+}
+.container-text-1a {
+    position: absolute;
+    display: inline;
+    left: 15px;
+    bottom: 10px;
+    font-size: 23px;
+    font-family: mabry pro;
+    color: white;
+}
+.container-text-1a small {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+
+/* Container 1b */
+.container-1b {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/cottonbuds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .2s;
+}
+.container-1b:hover {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/cottonbuds1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .3s;
+}
+.container-text-1b {
+    position: absolute;
+    display: inline;
+    left: 15px;
+    bottom: 10px;
+    font-size: 23px;
+    font-family: mabry pro;
+    color: white;
+}
+
+.container-text-1b small {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+
+/* Container 1c */
+.container-1c {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/toiletpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .2s;
+}
+.container-1c:hover {
+    position: absolute;
+    display: inline;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87%;
+    width: 100%;
+    background-image: url(../../Images/thumbnail/toiletpaper1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image .3s;
+}
+.container-text-1c {
+    position: absolute;
+    display: inline;
+    left: 15px;
+    bottom: 10px;
+    font-size: 23px;
+    font-family: mabry pro;
+    color: white;
+}
+
+.container-text-1c small {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}

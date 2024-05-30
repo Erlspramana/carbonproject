@@ -1,0 +1,8 @@
+.hidden-5 {
+    opacity: 0;
+    transition: ease-in .7s;
+}
+
+.transition5 {
+    opacity: 1;
+}

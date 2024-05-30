@@ -1,0 +1,561 @@
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #header {
+            height: 102vh;
+            border: 1px solid;
+            border-color: black;
+            background-image: url(../../Images/travel-products.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: home 2.5s;
+        }
+
+        @keyframes home {
+            from {
+                filter: blur(2px);
+                opacity: 0;
+            }
+            to {
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        .header-title-1 small {
+            font-size: 17px;
+            font-weight: normal;
+            font-family: mabry pro;
+        }
+
+        .header-title-1 {
+            position: absolute;
+            font-size: 67px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            line-height: 78px;
+            color: white;
+            top: 15vh;
+            left: 60px;
+        }
+
+        .header-button-1 {
+            background-color: rgba(178, 216, 175, 1);
+            color: rgb(0, 0, 0);
+            position: absolute;
+            font-size: 25px;
+            border-radius: 6px;
+            font-family: mabry pro;
+            border-left-color: rgb(255, 255, 255);
+            border-right-color: rgb(255, 255, 255);
+            border-bottom-color: rgb(255, 255, 255);
+            border-top-color: rgb(255, 255, 255);
+            border: 2px solid;
+            top: 70%;
+            left: 60px;
+            width: 200px;
+            height: 55px;
+            cursor: none;
+            z-index: 30;
+            transition-duration: .4s;
+          }
+        
+          .header-button-1:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        .header-heading-1 {
+            position: absolute;
+            z-index: 30;
+            top: 20vh;
+            left: 60px;
+            font-size: 20px;
+            font-family: mabry pro;
+            font-weight: normal;
+        }
+
+        #content {
+            position: relative;
+            top: 0vh;
+            background-color: rgb(20, 20, 20);
+        }
+
+        #container {
+            position: relative;
+            top: 20vh;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30%;
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container-text-1 {
+            position: relative;
+            left: 1%;
+            top: 7vh;
+            z-index: 30;
+            text-align: center;
+            font-size: 50px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            letter-spacing: -2.7px;
+            word-spacing: 10px;
+            line-height: 120px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(20, 20, 20);
+        }
+        .container-text-2 {
+            position: absolute;
+            left: 20%;
+            top: 22vh;
+            z-index: 30;
+            text-align: center;
+            font-size: 27px;
+            font-family: mabry pro;
+            font-weight: lighter;
+            letter-spacing: -1px;
+            word-spacing: 2px;
+            line-height: 30px;
+            max-width: 60%;
+            color: rgb(0, 0, 0);
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container-1a:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1a {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 30px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1a:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container-1b:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1b {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1b:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container-1c:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1c {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1c:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .scroll-reveal {
+            background-color: rgb(20, 20, 20);
+            height: 25vh;
+        }
+
+        .scroll-reveal span {
+            color: hsla(0, 0%, 100%, 0.2);
+            background-clip: text;
+            background-repeat: no-repeat;
+            background-size: 0% 100%;
+            background-image: linear-gradient(90deg, white, white);
+            animation: container-text-2 forwards;
+            animation-timeline: view();
+        }
+
+        .scroll-reveal h2 span {
+            animation-range-start: contain 10vh;
+            animation-range-end: contain 85vh;
+        }
+
+        .scroll-reveal p span {
+            animation-range-start: contain 5vh; 
+            animation-range-end: contain 65vh;
+
+        }
+
+        @keyframes container-text-2 {
+            to {
+                background-size: 100% 100%;
+            }
+        }
+
+        .container-1 {  
+            position: relative;
+            top: 5vh;
+            height: 60vh;
+            width: 30%;
+            margin: 20px;
+        }
+    }@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #header {
+            height: 102vh;
+            border: 1px solid;
+            border-color: black;
+            background-image: url(../../Images/travel-products.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: home 2.5s;
+        }
+
+        @keyframes home {
+            from {
+                filter: blur(2px);
+                opacity: 0;
+            }
+            to {
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        .header-title-1 small {
+            font-size: 20px;
+            font-weight: normal;
+            font-family: mabry pro;
+        }
+
+        .header-title-1 {
+            position: absolute;
+            font-size: 73px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            line-height: 78px;
+            color: white;
+            top: 15vh;
+            left: 120px;
+        }
+
+        .header-button-1 {
+            background-color: rgba(178, 216, 175, 1);
+            color: rgb(0, 0, 0);
+            position: absolute;
+            font-size: 25px;
+            border-radius: 6px;
+            font-family: mabry pro;
+            border-left-color: rgb(255, 255, 255);
+            border-right-color: rgb(255, 255, 255);
+            border-bottom-color: rgb(255, 255, 255);
+            border-top-color: rgb(255, 255, 255);
+            border: 2px solid;
+            top: 70%;
+            left: 120px;
+            width: 200px;
+            height: 55px;
+            cursor: none;
+            z-index: 30;
+            transition-duration: .4s;
+          }
+        
+          .header-button-1:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        .header-heading-1 {
+            position: absolute;
+            z-index: 30;
+            top: 20vh;
+            left: 140px;
+            font-size: 20px;
+            font-family: mabry pro;
+            font-weight: normal;
+        }
+
+        #content {
+            position: relative;
+            top: 0vh;
+            background-color: rgb(20, 20, 20);
+        }
+
+        #container {
+            position: relative;
+            top: 20vh;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30%;
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container-text-1 {
+            position: relative;
+            left: 1%;
+            top: 10vh;
+            z-index: 30;
+            text-align: center;
+            font-size: 60px;
+            font-family: plus jakarta sans;
+            font-weight: bolder;
+            letter-spacing: -2.7px;
+            word-spacing: 10px;
+            line-height: 120px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(20, 20, 20);
+        }
+        .container-text-2 {
+            position: absolute;
+            left: 27%;
+            top: 22vh;
+            z-index: 30;
+            text-align: center;
+            font-size: 30px;
+            font-family: mabry pro;
+            font-weight: lighter;
+            letter-spacing: -1px;
+            word-spacing: 8px;
+            line-height: 37px;
+            max-width: 50%;
+            color: rgb(0, 0, 0);
+            background-color: rgb(20, 20, 20);
+        }
+
+        .container-1a:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1a {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 20px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1a:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container-1b:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1b {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 20px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1b:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container-1c:hover .checkout-1a {
+            display: inline;
+        }
+        .checkout-1c {
+            display: none;
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 20px;
+            border-color: black;
+            color: black;
+            background-color: white;
+            font-size: 17px;
+            font-family: mabry pro;
+            transition: ease-in-out .2s;
+        }
+        .checkout-1c:hover {
+            position: absolute;
+            bottom: 3vh;
+            right: 3vh;
+            height: 40px;
+            width: 120px;
+            border: 2px solid;
+            border-radius: 25px;
+            border-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .scroll-reveal {
+            background-color: rgb(20, 20, 20);
+            height: 25vh;
+        }
+
+        .scroll-reveal span {
+            color: hsla(0, 0%, 100%, 0.2);
+            background-clip: text;
+            background-repeat: no-repeat;
+            background-size: 0% 100%;
+            background-image: linear-gradient(90deg, white, white);
+            animation: container-text-2 forwards;
+            animation-timeline: view();
+        }
+
+        .scroll-reveal h2 span {
+            animation-range-start: contain 10vh;
+            animation-range-end: contain 85vh;
+        }
+
+        .scroll-reveal p span {
+            animation-range-start: contain 5vh; 
+            animation-range-end: contain 65vh;
+
+        }
+
+        @keyframes container-text-2 {
+            to {
+                background-size: 100% 100%;
+            }
+        }
+
+        .container-1 {  
+            position: relative;
+            top: 5vh;
+            height: 60vh;
+            width: 30%;
+            margin: 20px;
+        }
+    }

@@ -1,0 +1,18 @@
+.hidden-4 {
+    display: inline-flex;
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    filter: blur(1.2px);
+    transition: ease-in .7s;
+    height: 80%;
+    width: 60%;
+  }
+  .transition4 {
+    position: relative;
+    z-index: 3;
+    opacity: 1;
+    filter: blur(0);
+    height: 80%;
+    width: 60%;
+  }

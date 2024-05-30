@@ -1,0 +1,19 @@
+/* Home page */
+/* Articles */
+.articles-1 {
+    background-image: url(../Images/plasticwaste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.articles-2 {
+    background-image: url(../Images/thumbnail/ecosia-bios-urn-blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.articles-3 {
+    background-image: url(../Images/thumbnail/10000668.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

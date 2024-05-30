@@ -1,0 +1,421 @@
+@media screen and (min-width: 3800px) and (max-width: 4000px) {
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "plus jakarta sans";
+        src: url("../../fonts/PlusJakartaSans-Regular.ttf")
+    }
+    @font-face {
+        font-family: "Mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    @font-face {
+        font-family: "mabry pro";
+        src: url("../../fonts/Mabry-Pro-Medium.ttf")
+        }
+    
+    #header-top {
+        position: relative;
+        background-color: rgb(16, 16, 18);
+        width: 100%;
+        height: 120vh;
+        animation: home 2.5s;
+    }
+    
+    #header-top-2 {
+        position: absolute;
+        background-color: rgb(16, 16, 18);
+        width: 120vh;
+        height: 7vh;
+        right: 0;
+        animation: home 2.5s;
+    }
+    
+    @keyframes home {
+        from {
+            filter: blur(2px);
+            opacity: 0;
+        }
+        to {
+            filter: blur(0);
+            opacity: 1;
+        }
+    }
+    
+    .header-title-1 {
+        position: absolute;
+        color: white;
+        font-family: plus jakarta sans;
+        font-size: 240px;
+        font-weight: 1000;
+        letter-spacing: -6.5px;
+        word-spacing: 1px;
+        top: 17vh;
+        left: 145px;
+        z-index: 20;
+    }
+    
+    .featured-div:hover .featured-title-1 {
+        cursor: none;
+        color: rgba(255, 0, 0, 0.858);
+        transition: color .2s;
+    }
+    
+    .featured-div:hover .featured-article {
+        cursor: none;
+        border-color: rgba(255, 0, 0, 0.858);
+        transition: border .2s;
+    }
+    
+    
+    .featured-article {
+        width: 1802px;
+        height: 1008px;
+        position: absolute;
+        top: 24%;
+        left: 20%;
+        border-radius: 2px;
+        border: solid 2px;
+        border-color: white;
+        z-index: 23;
+    }
+    
+    .featured-title-1 {
+        position: absolute;
+        color: white;
+        font-family: mabry pro;
+        font-size: 90px;
+        font-weight:normal;
+        word-spacing: 1px;
+        top: 80vh;
+        left: 20%;
+        z-index: 20;
+        max-width: 70%;
+    }
+    
+    .detail-line-1 {
+        position: absolute;
+        width: 30vh;
+        height: 1px;
+        top: 84%;
+        left: 20%;
+        background-color: rgba(255, 255, 255, 0.519);
+    }
+    
+    .detail-dot-1 {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: 83.6%;
+        left: 20%;
+        background-color: white;
+    }
+    
+    #articles {
+        position: relative;
+        width: 100%;
+        height: 250vh;
+    }
+    
+    .articles-title-1 {
+        position: absolute;
+        left: 10%;
+        top: 26vh;
+        font-size: 260px;
+        color: black;
+        font-family: plus jakarta sans;
+        letter-spacing: -6px;
+        font-weight: 1000;
+    }
+    
+    .verticalline1 {
+        position: absolute;
+        top: 7vh;
+        right: 10.2%;
+        width: 1px;
+        height: 250vh;
+        background-color: rgba(0, 0, 0, 0.614);
+    }
+    
+    /* content 1 */
+    #content-1 {
+        position: absolute;
+        height: 600px;
+        left: 10%;
+        top: 40vh;
+        width: 140vh;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.025);
+        border-radius: 3px;
+    }
+    #content-1:hover .date-1, #content-1:hover .text-1, #content-1:hover .desc-1,
+    #content-1:hover .image-1 {
+        color: red;
+        border-color: red;
+    }
+    .image-1 {
+        position: absolute;
+        left: 2%;
+        top: 7%;
+        height: 504px;
+        width: 866px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 2px;
+    }
+    .date-1 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 46px;
+        left: 47%;
+        top: 25%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .text-1 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 60px;
+        left: 47%;
+        top: 33%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .desc-1 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 38px;
+        left: 47%;
+        padding-top: 12%;
+        color: rgba(0, 0, 0, 0.601);
+        display: inline;
+        max-width: 45%;
+    }
+    
+    
+    /* content 2 */
+    #content-2 {
+        position: absolute;
+        height: 600px;
+        left: 10%;
+        top: 80vh;
+        width: 140vh;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.025);
+        border-radius: 3px;
+    }
+    #content-2:hover .date-2, #content-2:hover .text-2, #content-2:hover .desc-2,
+    #content-2:hover .image-2 {
+        color: red;
+        border-color: red;
+    }
+    .image-2 {
+        position: absolute;
+        left: 2%;
+        top: 3%;
+        height: 504px;
+        width: 866px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 2px;
+    }
+    .date-2 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 46px;
+        left: 47%;
+        top: 25%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .text-2 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 60px;
+        left: 47%;
+        top: 33%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .desc-2 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 38px;
+        left: 47%;
+        padding-top: 12%;
+        color: rgba(0, 0, 0, 0.601);
+        display: inline;
+        max-width: 45%;
+    
+    }
+
+    /* content 3 */
+    #content-3 {
+        position: absolute;
+        height: 600px;
+        left: 10%;
+        top: 120vh;
+        width: 140vh;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.025);
+        border-radius: 3px;
+    }
+    #content-3:hover .date-3, #content-3:hover .text-3, #content-3:hover .desc-3,
+    #content-3:hover .image-3 {
+        color: red;
+        border-color: red;
+    }
+    .image-3 {
+        position: absolute;
+        left: 2%;
+        top: 3%;
+        height: 504px;
+        width: 866px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 2px;
+    }
+    .date-3 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 46px;
+        left: 47%;
+        top: 25%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .text-3 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 60px;
+        left: 47%;
+        top: 33%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .desc-3 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 38px;
+        left: 47%;
+        padding-top: 12%;
+        color: rgba(0, 0, 0, 0.601);
+        display: inline;
+        max-width: 45%;
+    
+    }
+
+    /* content 4 */
+    #content-4 {
+        position: absolute;
+        height: 600px;
+        left: 10%;
+        top: 160vh;
+        width: 140vh;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.025);
+        border-radius: 3px;
+    }
+    #content-4:hover .date-4, #content-4:hover .text-4, #content-4:hover .desc-4,
+    #content-4:hover .image-4 {
+        color: red;
+        border-color: red;
+    }
+    .image-4 {
+        position: absolute;
+        left: 2%;
+        top: 3%;
+        height: 504px;
+        width: 866px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 2px;
+    }
+    .date-4 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 46px;
+        left: 47%;
+        top: 25%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .text-4 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 60px;
+        left: 47%;
+        top: 33%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .desc-4 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 38px;
+        left: 47%;
+        padding-top: 12%;
+        color: rgba(0, 0, 0, 0.601);
+        display: inline;
+        max-width: 45%;
+    
+    }
+
+    /* content 5 */
+    #content-5 {
+        position: absolute;
+        height: 600px;
+        left: 10%;
+        top: 200vh;
+        width: 140vh;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.025);
+        border-radius: 3px;
+    }
+    #content-5:hover .date-5, #content-5:hover .text-5, #content-5:hover .desc-5,
+    #content-5:hover .image-5 {
+        color: red;
+        border-color: red;
+    }
+    .image-5 {
+        position: absolute;
+        left: 2%;
+        top: 3%;
+        height: 504px;
+        width: 866px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 2px;
+    }
+    .date-5 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 46px;
+        left: 47%;
+        top: 25%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .text-5 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 60px;
+        left: 47%;
+        top: 33%;
+        color: rgba(0, 0, 0, 0.791);
+        display: inline;
+    }
+    .desc-5 {
+        position: absolute;
+        font-family: mabry pro;
+        font-size: 38px;
+        left: 47%;
+        padding-top: 12%;
+        color: rgba(0, 0, 0, 0.601);
+        display: inline;
+        max-width: 45%;
+     
+    }
+    }

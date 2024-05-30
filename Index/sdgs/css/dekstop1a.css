@@ -1,0 +1,341 @@
+@media screen and (min-width: 1450px) and (max-width: 1800px)  {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #sdgs {
+      position: relative;
+      height: 85vh;
+      width: 100%;
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 500px; 
+      background-color: rgb(234, 227, 221);
+  }
+
+  #bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(234, 227, 221);
+    background-image: url(../../../Images/sdgs/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    transition: all .5s;
+
+  }
+  
+  .sdgs-text-1 {
+    position: relative;
+    display: inline;
+    padding-top: 7%;
+    left: 15%;
+    font-size: 140px;
+    font-family: plus jakarta sans;
+    font-weight: bolder;
+  }
+
+  .sdgs-desc-1 {
+    position: absolute;
+    display: inline;
+    padding-top: 17%;
+    left: 9.5%;
+    z-index: 20;
+    max-width: 50%;
+    font-size: 30px;
+    font-family: mabry pro;
+  }
+    
+  .hidden-4 {
+    display: inline-flex;
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    filter: blur(1.2px);
+    transition: 1.5s;
+    height: 80%;
+    width: 60%;
+  }
+  .transition4 {
+    position: relative;
+    z-index: 3;
+    opacity: 1;
+    filter: blur(0);
+    height: 80%;
+    width: 60%;
+  }
+    
+      .sdg6 {
+      position: absolute;
+      top: 50px;
+      right: 17%;
+      width: 80px;
+      height: 80px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.335);
+      z-index: 4;
+      cursor: none;
+    }
+    .sdg6:hover  {
+      border-color: rgb(0, 0, 0);
+      z-index: 2;
+      cursor: none;
+    }
+    #sdg6:hover ~ #bg {
+      z-index: -1;
+      background-color: rgb(221, 230, 234);
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+    }
+    .hidden-6 {
+      position: absolute;
+      top: 0px;
+      right: 17%;
+      z-index: 2;
+      opacity: 0;
+      transition-duration: 1s;
+    }
+    .transition6 {
+      top: 0px;
+      right: 17%;
+      position: absolute;
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    .sdg7 {
+        position: absolute;
+        top: 135px;
+        right: 17%;
+        width: 80px;
+        height: 80px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(0, 0, 0, 0.335);
+        z-index: 4;
+        cursor: none;
+    }
+    .sdg7:hover {
+        border-color: rgb(0, 0, 0);
+        cursor: none;
+    }
+    #sdg7:hover ~ #bg {
+      background-color: rgb(234, 233, 221);
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hidden-7 {
+      position: absolute;
+      top: 0px;
+      right: 17%;
+      z-index: 2;
+      opacity: 0;
+      transition-duration: 1.2s;
+    }
+    .transition7 {
+      top: 0px;
+      right: 17%;
+      position: absolute;
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    .sdg13 {
+      position: absolute;
+      top: 220px;
+      right: 17%;
+      width: 80px;
+      height: 80px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.335);
+      z-index: 4;
+      cursor: none;
+    }
+    .sdg13:hover {
+        border-color: rgb(0, 0, 0);
+        cursor: none;
+    }
+    #sdg13:hover ~ #bg {
+      background-color: rgb(212, 224, 215);
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .hidden-13 {
+      position: absolute;
+      top: 0px;
+      right: 17%;
+      z-index: 4;
+      opacity: 0;
+      transition-duration: 1.4s;
+    }
+    .transition13 {
+      top: 0px;
+      right: 17%;
+      position: absolute;
+      z-index: 4;
+      opacity: 1;
+    }
+  
+    .sdg14 {
+      position: absolute;
+      top: 305px;
+      right: 17%;
+      width: 80px;
+      height: 80px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.335);
+      z-index: 4;
+      cursor: none;
+    }
+    #sdg14:hover ~ #bg {
+      background-color: rgb(192, 199, 209);
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .sdg14:hover {
+        border-color: rgb(0, 0, 0);
+        cursor: pointer;
+        cursor: none;
+    }
+    .hidden-14 {
+      position: absolute;
+      top: 0px;
+      right: 17%;
+      z-index: 4;
+      opacity: 0;
+      transition-duration: 1.6s;
+    }
+    .transition14 {
+      top: 0px;
+      right: 17%;
+      position: absolute;
+      z-index: 4;
+      opacity: 1;
+    }
+    
+    .sdg15 {
+      position: absolute;
+      top: 390px;
+      right: 17%;
+      width: 80px;
+      height: 80px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.335);
+      z-index: 4;
+      cursor: none;
+    }
+    .sdg15:hover {
+        border-color: rgb(0, 0, 0);
+        cursor: none;
+    }
+    #sdg15:hover ~ #bg {
+      background: rgb(207, 215, 203);
+      background-image: url(../../../Images/sdgs/background.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hidden-15 {
+      position: absolute;
+      top: 0px;
+      right: 17%;
+      z-index: 4;
+      opacity: 0;
+      transition-duration: 1.8s;
+    }
+    .transition15 {
+      top: 0px;
+      right: 17%;
+      position: absolute;
+      z-index: 4;
+      opacity: 1;
+    }
+  
+    
+      .verticalline4 {
+        display: inline;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.206);
+        width: 0.5px;
+        height: 90vh;
+        right: 12%;
+        z-index: 3;
+      }
+    
+      .hover {
+        display: inline;
+        position: absolute;
+        right: 9%;
+        padding-left: 10px;
+        width: 200px;
+        height: 220px;
+        z-index: 3;
+      }
+    
+      .sdgs-image-1a {
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        width: 130vh;
+        height: 45vh;
+        z-index: 5;
+        pointer-events: none;
+        filter:opacity(0.1);
+      }
+
+      .sdg-button-1 {
+        background-color: rgba(178, 216, 175, 1);
+        color: rgb(0, 0, 0);
+        position: absolute;
+        font-size: 30px;
+        border-radius: 6px;
+        font-family: mabry pro;
+        border-left-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-top-color: rgb(255, 255, 255);
+        border: 2px solid;
+        top: 72%;
+        left: 9.5%;
+        width: 260px;
+        height: 65px;
+        cursor: none;
+        z-index: 30;
+        transition-duration: .4s;
+      }
+    
+      .sdg-button-1:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    }

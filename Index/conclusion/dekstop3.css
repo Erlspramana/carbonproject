@@ -1,0 +1,50 @@
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+#conclusion {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(197, 193, 191);
+}
+
+.conclusion-title-1 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: plus jakarta sans;
+    font-weight: bolder;
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: -6px;
+    color: white;
+}
+
+.conclusion-desc-1 {
+    position: absolute;
+    left: 32%;
+    top: 37%;
+    font-family: mabry pro;
+    font-weight: normal;
+    font-size: 27px;
+    max-width: 51%;
+    color: white;
+}
+
+.conclusion-image-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50vh;
+    filter: opacity(0.4);
+}
+
+.verticalline6 {
+    display: inline;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.206);
+    width: 0.5px;
+    top: 0;
+    height: 70vh;
+    right: 12%;
+    z-index: 3;
+}
+}
