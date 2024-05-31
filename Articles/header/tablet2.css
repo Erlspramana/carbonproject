@@ -55,7 +55,7 @@
         word-spacing: 1px;
         top: 17vh;
         left: 145px;
-        z-index: 20;
+        z-index: 30;
     }
     
     .featured-div:hover .featured-title-1 {
